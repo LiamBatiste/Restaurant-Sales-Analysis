@@ -1,5 +1,5 @@
 # Restaurant-Sales-Analysis
-#python Data Cleaning and peparation
+#Python Data Cleaning and Peparation
 - Ensuring no null values
 - Ensuring no duplicate data
 - 
@@ -9,5 +9,8 @@
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
 
 
-https://app.powerbi.com/reportEmbed?reportId=9f4476fc-368d-4acd-abe4-3dd824f39f27&autoAuth=true&ctid=82d04232-94b3-4318-a9cf-da1964c702b9
-<iframe title="Restaurant Store Sales Benchmarking" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=9f4476fc-368d-4acd-abe4-3dd824f39f27&autoAuth=true&ctid=82d04232-94b3-4318-a9cf-da1964c702b9" frameborder="0" allowFullScreen="true"></iframe>
+#SQL Restaurant Sales SQL Benchmarking:
+
+
+#Power BI Dashboard:
+
