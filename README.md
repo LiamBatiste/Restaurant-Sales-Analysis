@@ -9,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
 
 
-#SQL Restaurant Sales SQL Benchmarking:
+#SQL Querying - Restaurant Sales Benchmarking:
 
 
 #Power BI Dashboard:
