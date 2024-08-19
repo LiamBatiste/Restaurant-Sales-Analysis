@@ -8,7 +8,7 @@ To enhance the internal competitive positioning and operational efficiency of th
 
 # Python Data Cleaning and Peparation
 
-To ensure accurate and meaningful analysis, the first step was to prepare the dataset. This involved several key processes:
+To ensure accurate and meaningful analysis, the first step was to prepare the dataset using Python library Pandas and Numpy. This involved several key processes:
 
 ### Data Cleaning:
 
@@ -30,7 +30,7 @@ A database schema was first developed using **https://dbdiagram.io/home**
 This was important firstly as it would allow me to visualise the database when writing SQL queries that involved joins and naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
 
 # SQL Querying - Restaurant Sales Benchmarking:
-
+Once the data was populated into the mySQL schema I could begin to conduct my analysis
 
 # Power BI Dashboard:
 [Quick Dashboard Showcase](https://github.com/user-attachments/assets/5b70fe68-312c-4d00-931c-00188178e7c6)
