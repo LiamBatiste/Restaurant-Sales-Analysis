@@ -12,14 +12,16 @@ To ensure accurate and meaningful analysis, the first step was to prepare the da
 
 ### Data Cleaning:
 
-**- Handling Missing Values: Removed or imputed missing data to ensure consistency.**
+- Handling Missing Values: Removed or imputed missing data to ensure consistency, such as record with '#NAME?' values being dropped.
 
-**- Data Type Conversion: Converted data types (e.g., dates, numerical values) to the correct formats for analysis.**
+- Data Type Conversion: Converted data types such as date types to the correct format so they compatible with SQL DATE datatype as part of a schema. 
 
-**- Removing Duplicates: Identified and removed any duplicate records to maintain data integrity.**
+- Removing Duplicates: Identified and removed any duplicate records to maintain data integrity such as columns that were similar in nature like the item description and name.
 
+With respect to data normalisation, given that the data was taken from Kaggle, the data was already in a state which allowed for comparison across all metrics. 
 
-# Database Schema: 
+### Database Intergation: 
+A database schema was first developed using **https://dbdiagram.io/home**
 [Database Schema](https://github.com/LiamBatiste/Restaurant-Sales-Analysis/blob/main/Fast%20Food%20Sales%20Schema.pdf)
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
 
