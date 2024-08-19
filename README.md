@@ -45,7 +45,7 @@ This insight could potentially be leveraged by the company during promotions as 
 
 **Sales performance by top 5 menu items for total sales quantity across all stores**
 
-![image](https://github.com/user-attachments/assets/1c09fda5-0694-4c14-a08a-c914bd9cb5ce)
+![image](https://github.com/user-attachments/assets/b8d3680c-81ab-4f33-bcbb-ae7586ce2892)
 
 The top 5 items sold across all stores by total revenue was;
 **1st - Turkey Foot Long, 2nd - Chicken Teriyaki Foot Long, 3rd - Tuna Foot Long, 4th - 21oz Fountain Drink, 5th - Roast Chicken Foot Long**. 
