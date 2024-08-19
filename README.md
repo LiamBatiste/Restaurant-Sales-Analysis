@@ -38,6 +38,7 @@ Once the data was populated into the mySQL schema I could begin to conduct my an
 - Sales performance by top 5 menu items by total sales revenue
   
 ![image](https://github.com/user-attachments/assets/a0af1c85-038c-4a72-a0bc-f247c28d2387)
+
 As shown above, the top 5 items sold across all stores by total revenue was; **Turkey FtLong, Chicken Teriyaki FtLong, Tuna FtLong, 21oz Fountain Drink, Rst Chicken FtLong**. This insight could potentially used by the company during promotions as they appeal to the largest sector with respect to sales. 
 
 - Sales performance by 
