@@ -43,13 +43,13 @@ As shown above, the top 5 items sold across all stores by total revenue was;
 **1st - Turkey Foot Long, 2nd - Chicken Teriyaki Foot Long, 3rd - Tuna Foot Long, 4th - 21oz Fountain Drink, 5th - Roast Chicken Foot Long**. 
 This insight could potentially be leveraged by the company during promotions as they appeal to the largest sector with respect to sales and potentially drive more overall sales. Further, the best performing items are generally main meal items so could be used as part of a meal-deal promotion to incentives repeat customers. 
 
-Given the 
-
 **Sales performance by top 5 menu items for total sales quantity**
 
 ![image](https://github.com/user-attachments/assets/1c09fda5-0694-4c14-a08a-c914bd9cb5ce)
 
-
+As shown above, the top 5 items sold across all stores by total revenue was;
+**1st - Turkey Foot Long, 2nd - Chicken Teriyaki Foot Long, 3rd - Tuna Foot Long, 4th - 21oz Fountain Drink, 5th - Roast Chicken Foot Long**. 
+This insight could potentially be leveraged by the company during promotions as they appeal to the largest sector with respect to sales and potentially drive more overall sales. Further, the best performing items are generally main meal items so could be used as part of a meal-deal promotion to incentives repeat customers. 
 
 
 # Power BI Dashboard:
