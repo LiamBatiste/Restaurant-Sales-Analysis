@@ -25,6 +25,7 @@ A database schema was first developed using **https://dbdiagram.io/home**
 [Database Schema](https://github.com/LiamBatiste/Restaurant-Sales-Analysis/blob/main/Fast%20Food%20Sales%20Schema.pdf)
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
 
+This was important firstly as it would allow me to visualise the database when writing SQL queries with both the aspects of joins and also with naming conventions. 
 
 #SQL Querying - Restaurant Sales Benchmarking:
 
