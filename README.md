@@ -13,7 +13,9 @@ To ensure accurate and meaningful analysis, the first step was to prepare the da
 Data Cleaning:
 
 **- Handling Missing Values: Removed or imputed missing data to ensure consistency.**
+
 **- Data Type Conversion: Converted data types (e.g., dates, numerical values) to the correct formats for analysis.**
+
 **- Removing Duplicates: Identified and removed any duplicate records to maintain data integrity.**
 
 
