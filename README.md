@@ -36,6 +36,7 @@ This was important firstly as it would allow me to visualise the database when w
 Once the data was populated into the mySQL schema I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
 
 - Sales performance by top 5 menu items by total sales revenue
+  
 ![image](https://github.com/user-attachments/assets/a0af1c85-038c-4a72-a0bc-f247c28d2387)
 
 
