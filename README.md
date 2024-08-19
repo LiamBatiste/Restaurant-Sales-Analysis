@@ -20,12 +20,13 @@ To ensure accurate and meaningful analysis, the first step was to prepare the da
 
 With respect to data normalisation, given that the data was taken from Kaggle, the data was already in a state which allowed for comparison across all metrics. 
 
+
 ### Database Intergation: 
 A database schema was first developed using **https://dbdiagram.io/home**
 [Database Schema](https://github.com/LiamBatiste/Restaurant-Sales-Analysis/blob/main/Fast%20Food%20Sales%20Schema.pdf)
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
 
-This was important firstly as it would allow me to visualise the database when writing SQL queries with both the aspects of joins and also with naming conventions. 
+This was important firstly as it would allow me to visualise the database when writing SQL queries with both the aspects of joins and also with naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
 
 #SQL Querying - Restaurant Sales Benchmarking:
 
