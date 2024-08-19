@@ -8,11 +8,16 @@ To enhance the internal competitive positioning and operational efficiency of th
 
 # Python Data Cleaning and Peparation
 
-- Ensuring no null values
-- Ensuring no duplicate data
-- 
+To ensure accurate and meaningful analysis, the first step was to prepare the dataset. This involved several key processes:
 
-#Database Schema: 
+Data Cleaning:
+
+**- Handling Missing Values: Removed or imputed missing data to ensure consistency.**
+**- Data Type Conversion: Converted data types (e.g., dates, numerical values) to the correct formats for analysis.**
+**- Removing Duplicates: Identified and removed any duplicate records to maintain data integrity.**
+
+
+# Database Schema: 
 [Database Schema](https://github.com/LiamBatiste/Restaurant-Sales-Analysis/blob/main/Fast%20Food%20Sales%20Schema.pdf)
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
 
