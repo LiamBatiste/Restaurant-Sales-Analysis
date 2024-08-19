@@ -6,7 +6,7 @@ Welcome to my Restaurant Sales Analysis repository! This project was developed t
 ### **Problem Statement:**
 To enhance the internal competitive positioning and operational efficiency of the restaurant chain, it is crucial to identify key performance drivers and areas for improvement across the menu offerings, store locations, and customer behaviors. Through comprehensive analysis of sales trends, ingredient usage, customer purchase patterns, and store-specific performance, I aim to establish benchmarks that will inform strategic decisions, optimise resource allocation, and improve profitability. By comparing these internal metrics against industry standards and best practices, I seek to uncover actionable insights that will lead to more effective pricing strategies, better inventory management, and enhanced customer satisfaction across all locations.
 
-#Python Data Cleaning and Peparation
+# Python Data Cleaning and Peparation
 
 - Ensuring no null values
 - Ensuring no duplicate data
