@@ -39,7 +39,7 @@ Once the data was populated into the mySQL schema I could begin to conduct my an
   
 ![image](https://github.com/user-attachments/assets/a0af1c85-038c-4a72-a0bc-f247c28d2387)
 
-As shown above, the top 5 items sold across all stores by total revenue was; 
+As shown above, the top 5 items sold across all stores by total revenue was;
 **1st - Turkey Foot Long, 2nd - Chicken Teriyaki Foot Long, 3rd - Tuna Foot Long, 4th - 21oz Fountain Drink, 5th - Roast Chicken Foot Long**. 
 This insight could potentially be leveraged by the company during promotions as they appeal to the largest sector with respect to sales and potentially drive more overall sales. Further, the
 
