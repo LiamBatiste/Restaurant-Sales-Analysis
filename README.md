@@ -29,7 +29,7 @@ A database schema was first developed using **https://dbdiagram.io/home**
 
 This was important firstly as it would allow me to visualise the database when writing SQL queries that involved joins and naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
 
-# SQL Querying - Restaurant Sales Benchmarking:
+# SQL Querying - Restaurant Sales Internal Benchmarking:
 
 ### Insights through mySQL:
 
