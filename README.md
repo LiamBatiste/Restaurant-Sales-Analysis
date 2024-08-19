@@ -27,7 +27,7 @@ A database schema was first developed using **https://dbdiagram.io/home**
 [Database Schema PDF](https://github.com/LiamBatiste/Restaurant-Sales-Analysis/blob/main/Fast%20Food%20Sales%20Schema.pdf)
 
 
-This was important firstly as it would allow me to visualise the database when writing SQL queries with both the aspects of joins and also with naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
+This was important firstly as it would allow me to visualise the database when writing SQL queries that involved joins and naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
 
 # SQL Querying - Restaurant Sales Benchmarking:
 
