@@ -10,7 +10,7 @@ To enhance the internal competitive positioning and operational efficiency of th
 
 To ensure accurate and meaningful analysis, the first step was to prepare the dataset. This involved several key processes:
 
-Data Cleaning:
+### Data Cleaning:
 
 **- Handling Missing Values: Removed or imputed missing data to ensure consistency.**
 
