@@ -14,7 +14,7 @@ To ensure accurate and meaningful analysis, the first step was to prepare the da
 
 - Handling Missing Values: Removed or imputed missing data to ensure consistency, such as record with '#NAME?' values being dropped.
 
-- Data Type Conversion: Converted data types such as date types to the correct format so they compatible with SQL DATE datatype as part of a schema. 
+- Data Type Conversion: Converted data types such as date types to the correct format so they compatible with SQL DATE datatype as part of a later schema. 
 
 - Removing Duplicates: Identified and removed any duplicate records to maintain data integrity such as columns that were similar in nature like the item description and name.
 
