@@ -30,8 +30,17 @@ A database schema was first developed using **https://dbdiagram.io/home**
 This was important firstly as it would allow me to visualise the database when writing SQL queries that involved joins and naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
 
 # SQL Querying - Restaurant Sales Benchmarking:
-Once the data was populated into the mySQL schema I could begin to conduct my analysis. The key areas of interest were: 
-- 
+
+### Insights through mySQL:
+
+Once the data was populated into the mySQL schema I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
+
+- Sales performance by top 5 menu items by total sales revenue
+![image](https://github.com/user-attachments/assets/a0af1c85-038c-4a72-a0bc-f247c28d2387)
+
+
+- Sales performance by 
+
 
 # Power BI Dashboard:
 [Quick Dashboard Showcase](https://github.com/user-attachments/assets/5b70fe68-312c-4d00-931c-00188178e7c6)
