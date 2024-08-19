@@ -42,7 +42,7 @@ Once the data was populated into the mySQL schema I could begin to conduct my an
 As shown above, the top 5 items sold across all stores by total revenue was; **1st - Turkey Foot Long, 2nd - Chicken Teriyaki FtLong, 3rd - Tuna FtLong, 4th - 21oz Fountain Drink, 5th - Rst Chicken FtLong**. 
 This insight could potentially used by the company during promotions as they appeal to the largest sector with respect to sales. 
 
-- Sales performance by 
+Given the 
 
 
 # Power BI Dashboard:
