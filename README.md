@@ -30,8 +30,10 @@ A database schema was first developed using **https://dbdiagram.io/home**
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
 [Database Schema PDF](https://github.com/LiamBatiste/Restaurant-Sales-Analysis/blob/main/Fast%20Food%20Sales%20Schema.pdf)
 
-
 This was important firstly as it would allow me to visualise the database when writing SQL queries that involved joins and naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
+
+The data was brought into SQL using the now cleaned and prepared CSV files (Seee Example code snippet)
+![image](https://github.com/user-attachments/assets/8c85ab77-5936-4d22-a244-150df923ef44)
 
 # SQL Querying - Restaurant Sales Internal Benchmarking:
 
