@@ -128,9 +128,6 @@ This may be due to deals that are associated with these specific items that coul
 ![image](https://github.com/user-attachments/assets/b64b6972-3d03-4406-befb-c40700bab798)
 
 
-It can be seen that the order of average discount for items was (high to low); **Steak & Cheese Flat Bread, Veggie Patty Flat Bread, Roast Chicken Flat Bread, Chicken Parmesan, 6 inch Buffalo Chicken Foot Long**
-
-This may be due to deals that are associated with these specific items that could be as part of events, seasons or cross-brading. This data can be utilised to ensure that restaurants are not applying to much discount to items but also can give target items for monitoring for example to trial if discounts increase overall sales quantity/revenue by a certain threshold possibly through hypothesis testing. 
 <br></br>
 
 # Power BI Dashboard:
