@@ -78,11 +78,10 @@ This Insight can be leveraged through an estimation of the required stock for di
 
 **Average Sale value by restaurant**
 
-![image](https://github.com/user-attachments/assets/40a987ee-0217-4170-a838-b60e3868c80a)
+![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
 
-The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 Grams), Ham - (266280 Grams), Marinara - (176476 Grams), Roast Beef - (165790 Grams)**
-This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
-
+The order of average_order_value by store id is as follows (high to low); **Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
+The disparity in average sales value could be due to a number of 
 
 
 # Power BI Dashboard:
