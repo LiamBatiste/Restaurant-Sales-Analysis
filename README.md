@@ -112,8 +112,13 @@ Because the item combination could be the same but just arranged in a different 
 3rd - chicken teriyaki 6 inch, chips and 21oz fountain drink**
 
 This could ultimately give further direction as to what meal-deal choices should/shouldn't be included to maximise revenue, as well as recommendations for first time customers to maximise the chances of repeat customers (as it is likely these items will give a good impression to the customers based of general demand). 
+<br></br>
 
-Discount Across items 
+**Top 5 Items with Highest Average Sales Discount**
+
+![image](https://github.com/user-attachments/assets/a936673f-1fba-4f1e-b56d-3f87838a22f9)
+
+It can be seen that the oder of average discount for items was (high to low); **Steak & Cheese Flat Bread, Veggie Patty Flat Bread, Roast Chicken Flat Bread, Chicken Parmesan, 6 inch Buffalo Chicken Foot Long**
 
 # Power BI Dashboard:
 
