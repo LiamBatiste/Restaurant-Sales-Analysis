@@ -80,7 +80,7 @@ This Insight can be leveraged through an estimation of the required stock for di
 
 ![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
 
-The order of average_order_value by store id is as follows (high to low); **Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
+The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
 The disparity in average sales value could be due to a number of 
 
 
