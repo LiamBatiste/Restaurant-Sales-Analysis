@@ -94,9 +94,9 @@ This Insight can be leveraged through an estimation of the required stock for di
 
 **Store Sales Over Each Month**
 
-![image](https://github.com/user-attachments/assets/e562084c-968d-4faf-ae05-2814eed59abc)
+![image](https://github.com/user-attachments/assets/2e855694-8846-42ae-bb16-6d9d2b406ef2)
 
-
+General Observations show that 
 
 
 # Power BI Dashboard:
