@@ -106,7 +106,12 @@ This Insight can be leveraged through an estimation of the required stock for di
 
 ![image](https://github.com/user-attachments/assets/40b1ae0e-19e1-484c-b247-e7471585889b)
 
+Because the item combination could be the same but just arranged in a different order I limited 15 to filter through and find the likely 3 most purchased combination of items. I am aware there are 10 different possible combinations of the same 3 items, but to save time I am giving a rough estimate of the top 3 combinations across stores, which may be so;
+**1st - turkey 6 inch, chips and 21oz fountain drink
+2nd - tuna 6 inch, chips and 21oz fountain drink
+3rd - chicken teriyaki 6 inch, chips and 21oz fountain drink**
 
+This could ultimately give further direction as to what meal-deal choices should/shouldn't be included to maximise revenue, as well as recommendations for first time customers to maximise the chances of repeat customers (as it is likely these items will give a good impression to the customers based of general demand). 
 
 # Power BI Dashboard:
 
