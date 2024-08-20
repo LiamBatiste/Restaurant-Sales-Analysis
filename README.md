@@ -61,15 +61,6 @@ The top 5 items sold across all stores by total quantity was;
 This could well be due to these items being 'budget-friendly' items (as when compared the price of these items were well below the average of ~ $3.4 across stores), which may explain the high sales volume across stores. This finding could be coupled with the aforementioned insight through chips and water being part of a bundle deal to drive more sales and upsell the more expensive 'main meal' items through a snack, side and drink.
 <br></br>
 
-**Average Sale Value by Restaurant**
-
-![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
-
-The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
-
-The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluency where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area as they highly comparable (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
-<br></br>
-
 **Sales performance by top 5 menu items for total sales quantity and revenue across all stores**
 
 ![image](https://github.com/user-attachments/assets/91ea4952-889a-4d5b-80f9-24c589273107)
@@ -83,6 +74,25 @@ Results for sales revenue were as follows;
 Clearly chips are in high demand across all stores and so including this item as part of a bundle has the potential to maximise sales as part of a meal-deal promotion. 
 <br></br>
 
+**Average Sale Value by Restaurant**
+
+![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
+
+The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
+
+The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluency where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area as they highly comparable (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
+<br></br>
+
+**Store Total Sale Revenue Over Each Month**
+
+![image](https://github.com/user-attachments/assets/2e855694-8846-42ae-bb16-6d9d2b406ef2)
+
+General Observations show that the average sales are **highest during April and Lowest during June and store 12631 doing well across the months whereas store 46673 is not doing well across the different months**
+
+This information can therefore be used to identify monthly or seasonal patterns where the earlier mention meal-deal promotions could be best suited to drive an increase in sales during months when revenue is generally lower and even more specificy at the store level. 
+
+<br></br>
+
 **Top 5 ingredients used within purchased items recipes/sub-recipes across all stores**
 
 ![image](https://github.com/user-attachments/assets/40a987ee-0217-4170-a838-b60e3868c80a)
@@ -91,13 +101,6 @@ The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 
 
 This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
 <br></br>
-
-**Store Sales Over Each Month**
-
-![image](https://github.com/user-attachments/assets/2e855694-8846-42ae-bb16-6d9d2b406ef2)
-
-General Observations show that 
-
 
 # Power BI Dashboard:
 
