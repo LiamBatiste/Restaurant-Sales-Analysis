@@ -59,7 +59,7 @@ The top 5 items sold across all stores by total quantity was;
 
 This could well be due to these items being 'budget-friendly' items (as when compared the price of these items were well below the average of ~ $3.4 across stores), which may explain the high sales volume across stores. This finding could be coupled with the aforementioned insight through chips and water being part of a bundle deal to drive more sales and upsell the more expensive 'main meal' items through a snack, side and drink.
 
-**Average Sale value by restaurant**
+**Average Sale Value by Restaurant**
 
 ![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
 
