@@ -32,7 +32,7 @@ A database schema was first developed using **https://dbdiagram.io/home**
 
 This was important firstly as it would allow me to visualise the database when writing SQL queries that involved joins and naming conventions. Additionally, the cleaned and transformed data could then be loaded directly into the SQL database from the now cleaned CSV files to facilitate querying and further analysis.
 
-The data was brought into SQL using the now cleaned and prepared CSV files (Seee Example code snippet)
+The data was brought into SQL using the now cleaned and prepared CSV files (Seee Example code snippet).
 ![image](https://github.com/user-attachments/assets/8c85ab77-5936-4d22-a244-150df923ef44)
 
 # SQL Querying - Restaurant Sales Internal Benchmarking:
@@ -76,12 +76,14 @@ Clearly chips are in high demand across all stores and so including this item as
 The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 Grams), Ham - (266280 Grams), Marinara - (176476 Grams), Roast Beef - (165790 Grams)**
 This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
 
-**Top 5 ingredients used within purchased items across all stores**
+**Average Sale value by restaurant**
 
 ![image](https://github.com/user-attachments/assets/40a987ee-0217-4170-a838-b60e3868c80a)
 
 The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 Grams), Ham - (266280 Grams), Marinara - (176476 Grams), Roast Beef - (165790 Grams)**
 This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
+
+
 
 # Power BI Dashboard:
 
