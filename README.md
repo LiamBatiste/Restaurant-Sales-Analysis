@@ -71,6 +71,10 @@ Clearly chips are in high demand across all stores and so including this item as
 
 ![image](https://github.com/user-attachments/assets/40a987ee-0217-4170-a838-b60e3868c80a)
 
+The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 Grams), Ham - (266280 Grams), Marinara - (176476 Grams), Roast Beef - (165790 Grams)**
+This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
+
+
 
 # Power BI Dashboard:
 
