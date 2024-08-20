@@ -113,6 +113,8 @@ Because the item combination could be the same but just arranged in a different 
 
 This could ultimately give further direction as to what meal-deal choices should/shouldn't be included to maximise revenue, as well as recommendations for first time customers to maximise the chances of repeat customers (as it is likely these items will give a good impression to the customers based of general demand). 
 
+Discount Across items 
+
 # Power BI Dashboard:
 
 https://github.com/user-attachments/assets/fabffaf0-dd14-4817-85e1-e082cb5f8739
