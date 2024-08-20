@@ -127,6 +127,18 @@ This may be due to deals that are associated with these specific items that coul
 
 ![image](https://github.com/user-attachments/assets/b64b6972-3d03-4406-befb-c40700bab798)
 
+-- top 5 items by average discount (percentage) based off sales volume against item price this year are as follows:
+-- Turkey 6 inch (~ 26%), Milk (~ 22%), Cookie (~ 22%), Steak & Chse FtLong (~ 22%), Turkey 6 inch (~ 16%)
+-- it is important to consider that I have used (average disc by sales)/price 
+-- this is more appropriate to analyze customer behavior in terms of how often they are availing of discounts on a specific item   
+-- whereas I could have also looked at (average disc by quantity)/price 
+-- this would be to assess the impact of discounts on the volume of products sold
+
+**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
+**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
+**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
+**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
+
 
 <br></br>
 
