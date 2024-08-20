@@ -66,6 +66,12 @@ Results for sales revenue were as follows;
 
 Clearly chips are in high demand across all stores and so including this item as part of a bundle has the potential to maximise sales as part of a meal-deal promotion. 
 
+**Top 5 ingendients used within purchased items across all stores**
+
+![image](https://github.com/user-attachments/assets/40a987ee-0217-4170-a838-b60e3868c80a)
+
+
+
 # Power BI Dashboard:
 [Quick Dashboard Showcase](https://github.com/user-attachments/assets/5b70fe68-312c-4d00-931c-00188178e7c6)
 
