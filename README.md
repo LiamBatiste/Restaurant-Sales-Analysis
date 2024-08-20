@@ -72,7 +72,8 @@ Clearly chips are in high demand across all stores and so including this item as
 ![image](https://github.com/user-attachments/assets/40a987ee-0217-4170-a838-b60e3868c80a)
 
 
-
 # Power BI Dashboard:
+
+https://github.com/user-attachments/assets/e9def8c9-f899-4121-a271-38898ffb615d
 
 
