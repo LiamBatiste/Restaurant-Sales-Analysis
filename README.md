@@ -102,6 +102,12 @@ The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 
 This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
 <br></br>
 
+**Most Popular Item Combo Choices by Customers**
+
+![image](https://github.com/user-attachments/assets/40b1ae0e-19e1-484c-b247-e7471585889b)
+
+
+
 # Power BI Dashboard:
 
 https://github.com/user-attachments/assets/fabffaf0-dd14-4817-85e1-e082cb5f8739
