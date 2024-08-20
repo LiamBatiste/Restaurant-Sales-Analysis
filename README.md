@@ -61,10 +61,10 @@ This could well be due to these items being 'budget-friendly' items (as when com
 Results for quantity sold were as follows; 
 **Chips were unanimously the top performer with respect to total sales quantity**
 
-Results for quantity sold were as follows; 
-**Chips were unanimously the top performer with respect to total sales quantity**
+Results for sales revenue were as follows; 
+**Turkey Foot Long across 2 stores, Chicken Teriyaki Foot Long and 21oz Fountain Drink**
 
-It can be seen that Chips and 21oz Fountain Drink far outsell other items, despite Cookie being of a lower price. This may be due to the fact both items are convenient for both eat-in and take-away due to portability and the ability to eat on the go. Both items may also just be customer favourites at those store. It would be of interest to see if the
+Clearly chips are in high demand across all stores and so including this item as part of a bundle has the potential to maximise sales as part of a meal-deal promotion. 
 
 # Power BI Dashboard:
 [Quick Dashboard Showcase](https://github.com/user-attachments/assets/5b70fe68-312c-4d00-931c-00188178e7c6)
