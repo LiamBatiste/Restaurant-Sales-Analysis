@@ -52,8 +52,15 @@ This insight could potentially be leveraged by the company during promotions as 
 
 The top 5 items sold across all stores by total quantity was; 
 **chips across 3 different stores, 21oz Fountain Drink across 2 different stores**. 
-This could well be due to these items being 'budget-friendly' items (as when compared the price of these items were well below the average of ~ $3.4 across stores, which may explain the high sales volume across stores. This finding could be coupled with the aforementioned insight through chips and water being part of a bundle deal to drive more sales and upsell the more expensive 'main meal' items through a snack, side and drink.
+This could well be due to these items being 'budget-friendly' items (as when compared the price of these items were well below the average of ~ $3.4 across stores), which may explain the high sales volume across stores. This finding could be coupled with the aforementioned insight through chips and water being part of a bundle deal to drive more sales and upsell the more expensive 'main meal' items through a snack, side and drink.
 
+**Sales performance by top 5 distinct menu items for total sales quantity across all stores**
+
+![image](https://github.com/user-attachments/assets/b21e8b90-d54d-433f-9008-de1285a46fe7)
+
+The top distinct 5 items sold across all stores by total quantity was; 
+**Chips, 21oz Fountain Drink, Cookie, Bottled Carbonated Drink, Turkey 6 inch Sub**
+It can be seen that Chips and 21oz Fountain Drink far outsell other items, despite Cookie being of a lower price. This may be due to the fact both items are convenient for both eat-in and take-away due to portability and the ability to eat on the go. Both items may also just be customer favourites at those store.
 
 # Power BI Dashboard:
 [Quick Dashboard Showcase](https://github.com/user-attachments/assets/5b70fe68-312c-4d00-931c-00188178e7c6)
