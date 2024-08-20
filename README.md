@@ -59,6 +59,13 @@ The top 5 items sold across all stores by total quantity was;
 
 This could well be due to these items being 'budget-friendly' items (as when compared the price of these items were well below the average of ~ $3.4 across stores), which may explain the high sales volume across stores. This finding could be coupled with the aforementioned insight through chips and water being part of a bundle deal to drive more sales and upsell the more expensive 'main meal' items through a snack, side and drink.
 
+**Average Sale value by restaurant**
+
+![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
+
+The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
+The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluency where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area as they highly comparable (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
+
 **Sales performance by top 5 menu items for total sales quantity and revenue across all stores**
 
 ![image](https://github.com/user-attachments/assets/91ea4952-889a-4d5b-80f9-24c589273107)
@@ -79,12 +86,12 @@ The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 
 
 This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
 
-**Average Sale value by restaurant**
 
-![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
 
-The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
-The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluency where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
+**Customer Purchase Behaviour - most common item combos**
+
+![image](https://github.com/user-attachments/assets/873d5842-bac9-4789-a571-cf6114dd6a32)
+
 
 
 # Power BI Dashboard:
