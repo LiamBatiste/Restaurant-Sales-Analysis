@@ -49,6 +49,7 @@ As shown above, the top 5 items sold across all stores by total revenue was;
 **1st - Turkey Foot Long, 2nd - Chicken Teriyaki Foot Long, 3rd - Tuna Foot Long, 4th - 21oz Fountain Drink, 5th - Roast Chicken Foot Long**. 
 
 This insight could potentially be leveraged by the company during promotions as they appeal to the largest sector with respect to sales and potentially drive more overall sales. Further, the best performing items are generally 'main meal' items so could be used as part of a meal-deal promotion to incentives repeat customers. 
+<br></br>
 
 **Sales performance by top 5 menu items for total sales quantity across all stores**
 
