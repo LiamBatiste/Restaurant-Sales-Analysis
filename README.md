@@ -60,8 +60,10 @@ This could well be due to these items being 'budget-friendly' items (as when com
 
 Results for quantity sold were as follows; 
 **Chips were unanimously the top performer with respect to total sales quantity**
+
 Results for quantity sold were as follows; 
 **Chips were unanimously the top performer with respect to total sales quantity**
+
 It can be seen that Chips and 21oz Fountain Drink far outsell other items, despite Cookie being of a lower price. This may be due to the fact both items are convenient for both eat-in and take-away due to portability and the ability to eat on the go. Both items may also just be customer favourites at those store. It would be of interest to see if the
 
 # Power BI Dashboard:
