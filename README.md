@@ -47,6 +47,7 @@ Once the data was populated into the mySQL schema I could begin to conduct my an
 
 As shown above, the top 5 items sold across all stores by total revenue was;
 **1st - Turkey Foot Long, 2nd - Chicken Teriyaki Foot Long, 3rd - Tuna Foot Long, 4th - 21oz Fountain Drink, 5th - Roast Chicken Foot Long**. 
+
 This insight could potentially be leveraged by the company during promotions as they appeal to the largest sector with respect to sales and potentially drive more overall sales. Further, the best performing items are generally 'main meal' items so could be used as part of a meal-deal promotion to incentives repeat customers. 
 
 **Sales performance by top 5 menu items for total sales quantity across all stores**
@@ -55,6 +56,7 @@ This insight could potentially be leveraged by the company during promotions as 
 
 The top 5 items sold across all stores by total quantity was; 
 **chips across 3 different stores, 21oz Fountain Drink across 2 different stores**. 
+
 This could well be due to these items being 'budget-friendly' items (as when compared the price of these items were well below the average of ~ $3.4 across stores), which may explain the high sales volume across stores. This finding could be coupled with the aforementioned insight through chips and water being part of a bundle deal to drive more sales and upsell the more expensive 'main meal' items through a snack, side and drink.
 
 **Sales performance by top 5 menu items for total sales quantity and revenue across all stores**
@@ -74,6 +76,7 @@ Clearly chips are in high demand across all stores and so including this item as
 ![image](https://github.com/user-attachments/assets/40a987ee-0217-4170-a838-b60e3868c80a)
 
 The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 Grams), Ham - (266280 Grams), Marinara - (176476 Grams), Roast Beef - (165790 Grams)**
+
 This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
 
 **Average Sale value by restaurant**
