@@ -42,6 +42,33 @@ The data was brought into SQL using the now cleaned and prepared CSV files (Seee
 
 Once the data was populated into the mySQL schema I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
 
+- Restaurant Sales Analysis
+- Menu Item Analysis
+- Discount Analysis
+- Customer Behaviour Analysis
+
+## Restaurant Sales Analysis
+
+**Average Sale Value by Restaurant**
+
+![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
+
+The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
+
+The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluency where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area as they highly comparable (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
+<br></br>
+
+**Store Total Sale Revenue Over Each Month**
+
+![image](https://github.com/user-attachments/assets/2e855694-8846-42ae-bb16-6d9d2b406ef2)
+
+General Observations show that the average sales are **highest during April and Lowest during June and store 12631 doing well across the months whereas store 46673 is not doing well across the different months**
+
+This information can therefore be used to identify monthly or seasonal patterns where the earlier mention meal-deal promotions could be best suited to drive an increase in sales during months when revenue is generally lower and even more specificy at the store level. 
+<br></br>
+
+## Menu Item Analysis
+
 **Sales performance by top 5 menu items for total sales revenue across all stores**
   
 ![image](https://github.com/user-attachments/assets/a0af1c85-038c-4a72-a0bc-f247c28d2387)
@@ -75,22 +102,17 @@ Results for sales revenue were as follows;
 Clearly chips are in high demand across all stores and so including this item as part of a bundle has the potential to maximise sales as part of a meal-deal promotion. 
 <br></br>
 
-**Average Sale Value by Restaurant**
+**Bottom 5 Performing Menu Items Based on revenue by Restaurant**
 
-![image](https://github.com/user-attachments/assets/c9ba6319-a1a4-4d2e-afa6-9e5aca7f46a1)
+![image](https://github.com/user-attachments/assets/9af07515-c20e-4efb-8dd0-083cd07083b9)
 
-The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
+Through observartion **the Cheese Portion (menu item id: 914) appears in store 4904 with a total revenue of $0.30 and in store 46673 with a total revenue of $0.15.**
 
-The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluency where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area as they highly comparable (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
-<br></br>
+This might indicate that the item should be discontinued from said store or company wide or apply a promotio and then monitor item performance. 
 
-**Store Total Sale Revenue Over Each Month**
+Additonally,**the store id 20974 is selling a higher number of the same item at no charge.** 
 
-![image](https://github.com/user-attachments/assets/2e855694-8846-42ae-bb16-6d9d2b406ef2)
-
-General Observations show that the average sales are **highest during April and Lowest during June and store 12631 doing well across the months whereas store 46673 is not doing well across the different months**
-
-This information can therefore be used to identify monthly or seasonal patterns where the earlier mention meal-deal promotions could be best suited to drive an increase in sales during months when revenue is generally lower and even more specificy at the store level. 
+It might be useful to check in with this store and query why these volume of free items is so much higher or even ensure that staff a trained/retrained on discount and sales processes.
 <br></br>
 
 **Top 5 ingredients used within purchased items recipes/sub-recipes across all stores**
@@ -102,17 +124,7 @@ The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 
 This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
 <br></br>
 
-**Most Popular Item Combo Choices by Customers**
-
-![image](https://github.com/user-attachments/assets/40b1ae0e-19e1-484c-b247-e7471585889b)
-
-Because the item combination could be the same but just arranged in a different order I limited 15 to filter through and find the likely 3 most purchased combination of items. I am aware there are 10 different possible combinations of the same 3 items, but to save time I am giving a rough estimate of the top 3 combinations across stores, which may be so;
-**1st - turkey 6 inch, chips and 21oz fountain drink
-2nd - tuna 6 inch, chips and 21oz fountain drink
-3rd - chicken teriyaki 6 inch, chips and 21oz fountain drink**
-
-This could ultimately give further direction as to what meal-deal choices should/shouldn't be included to maximise revenue, as well as recommendations for first time customers to maximise the chances of repeat customers (as it is likely these items will give a good impression to the customers based of general demand). 
-<br></br>
+## Discount Analysis
 
 **Top 5 Items with Highest Average Sales Discount**
 
@@ -132,17 +144,18 @@ The top 5 items by average discount (percentage) based off sales volume against 
 It is important to consider that I have used _(average discount for sales)/price_ this is more appropriate to analyse customer behavior in terms of how often they are availing of discounts on a specific item. Whereas I could have also looked at (average disc by quantity)/price this would be used to assess the impact of discounts on the volume of products sold.
 <br></br>
 
-**Bottom 5 Performing Menu Items Based on revenue by Restaurant**
+## Customer Behaviour Analysis
 
-![image](https://github.com/user-attachments/assets/9af07515-c20e-4efb-8dd0-083cd07083b9)
+**Most Popular Item Combo Choices by Customers**
 
-Through observartion **the Cheese Portion (menu item id: 914) appears in store 4904 with a total revenue of $0.30 and in store 46673 with a total revenue of $0.15.**
+![image](https://github.com/user-attachments/assets/40b1ae0e-19e1-484c-b247-e7471585889b)
 
-This might indicate that the item should be discontinued from said store or company wide or apply a promotio and then monitor item performance. 
+Because the item combination could be the same but just arranged in a different order I limited 15 to filter through and find the likely 3 most purchased combination of items. I am aware there are 10 different possible combinations of the same 3 items, but to save time I am giving a rough estimate of the top 3 combinations across stores, which may be so;
+**1st - turkey 6 inch, chips and 21oz fountain drink
+2nd - tuna 6 inch, chips and 21oz fountain drink
+3rd - chicken teriyaki 6 inch, chips and 21oz fountain drink**
 
-Additonally,**the store id 20974 is selling a higher number of the same item at no charge.** 
-
-It might be useful to check in with this store and query why these volume of free items is so much higher or even ensure that staff a trained/retrained on discount and sales processes.
+This could ultimately give further direction as to what meal-deal choices should/shouldn't be included to maximise revenue, as well as recommendations for first time customers to maximise the chances of repeat customers (as it is likely these items will give a good impression to the customers based of general demand). 
 <br></br>
 
 **Eat-in/Take-away Percentage Split for Each Restaurant**
