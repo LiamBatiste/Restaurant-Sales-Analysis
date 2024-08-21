@@ -130,10 +130,20 @@ This may be due to deals that are associated with these specific items that coul
 The top 5 items by average discount (percentage) based off sales volume against item price this year are as follows; **Turkey 6 inch (~ 26%), Milk (~ 22%), Cookie (~ 22%), Steak & Chse FtLong (~ 22%), Turkey 6 inch (~ 16%)**
 
 It is important to consider that I have used _(average discount for sales)/price_ this is more appropriate to analyse customer behavior in terms of how often they are availing of discounts on a specific item. Whereas I could have also looked at (average disc by quantity)/price this would be used to assess the impact of discounts on the volume of products sold.
-
 <br></br>
 
-**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
+**Bottom 5 Performing Menu Items Based on revenue by Restaurant**
+
+![image](https://github.com/user-attachments/assets/9af07515-c20e-4efb-8dd0-083cd07083b9)
+
+Through observartion **the Cheese Portion (menu item id: 914) appears in store 4904 with a total revenue of $0.30 and in store 46673 with a total revenue of $0.15.**
+
+This might indicate that the item should be discontinued from said store or company wide or apply a promotio and then monitor item performance. 
+
+Additonally,**the store id 20974 is selling a higher number of the same item at no charge.** 
+
+It might be useful to check in with this store and query why these volume of free items is so much higher or even ensure that staff a trained/retrained on discount and sales processes.
+
 **Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
 **Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
 **Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
