@@ -143,13 +143,20 @@ This might indicate that the item should be discontinued from said store or comp
 Additonally,**the store id 20974 is selling a higher number of the same item at no charge.** 
 
 It might be useful to check in with this store and query why these volume of free items is so much higher or even ensure that staff a trained/retrained on discount and sales processes.
+<br></br>
 
-**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
-**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
-**Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
+**Eat-in/Take-away Percentage Split for Each Restaurant**
 
+![image](https://github.com/user-attachments/assets/84d1b95b-96a1-49e1-af9e-4af894f76c13)
 
-
+store_id of 4904 has a 65/35 split for eat-in/take-away sales 
+store id of 12631 has an almost unanimously eat-in sales
+store id of 20974 has an almost unanimously eat-in sales 
+store id of 46673 has a 73/27 split for eat-in/take-away sales
+potential to try and increase sales and profit by targetting the majority splits through deals on foods associated more so with customer eat-in/take-aways
+can also adapt items e.g. convenient containers for restaurants 12631 and 20974 to make take-away more convenient which could translate to more repeat customers
+why do restaurants 12631 and 20974 have such low take-away sales?
+<br></br>
 
 # Power BI Dashboard:
 
