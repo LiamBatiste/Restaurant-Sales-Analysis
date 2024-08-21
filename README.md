@@ -42,7 +42,7 @@ The data was brought into SQL using the now cleaned and prepared CSV files (Seee
 
 Once the data was populated into the mySQL schema I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
 
-- Overall Restaurant Sales Analysis[here](#overall-restaurant-sales-analysis)
+- [Overall Restaurant Sales Analysis](#overall-restaurant-sales-analysis)
 - Menu Item Analysis
 - Discount Analysis
 - Customer Behaviour Analysis
