@@ -157,6 +157,7 @@ Therefore there is potential to try and increase sales and profit by targetting 
 **Top 5 Menu Items for Eat-in/Take-away for Each Restaurant**
 
 ![image](https://github.com/user-attachments/assets/3507273c-0a8c-4b81-957d-10b25524304b)
+
 ![image](https://github.com/user-attachments/assets/970f7ec4-c6d0-4a69-bc25-9d6c7f3d3ea5)
 
 
