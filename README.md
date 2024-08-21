@@ -10,6 +10,7 @@ To enhance the internal competitive positioning and operational efficiency of th
 ### Dataset
 The dataset used for this analysis was taken from [Kaggle - Fast-Food Restaurant Chain](https://www.kaggle.com/datasets/rishitsaraf/fast-food-restaurant-chain/data?select=recipe_sub_recipe_assignments.csv). The dataset was provided by one of the largest fast-food restaurant chains in the US. It includes (1) transaction information such as menu items that were purchased and quantities of each item; (2) ingredient lists for individual menu items; (3) metadata on restaurants, including location, and store type. The data observation window is from early March, 2015 to 06/15/2015 and includes transactional data from 2 stores in Berkeley, CA and 2 stores in New York, NY.
 
+
 # Python Data Cleaning and Peparation
 
 To ensure accurate and meaningful analysis, the first step was to prepare the dataset using Python library Pandas and Numpy. This involved several key processes:
@@ -24,7 +25,6 @@ To ensure accurate and meaningful analysis, the first step was to prepare the da
 
 With respect to data normalisation, given that the data was taken from Kaggle, the data was already in a state which allowed for comparison across all metrics. 
 
-
 ### Database Intergation: 
 A database schema was first developed using **https://dbdiagram.io/home** 
 ![image](https://github.com/user-attachments/assets/680b962c-eafe-4249-be95-488c46d3658a)
@@ -34,6 +34,7 @@ This was important firstly as it would allow me to visualise the database when w
 
 The data was brought into SQL using the now cleaned and prepared CSV files (Seee Example code snippet).
 ![image](https://github.com/user-attachments/assets/8c85ab77-5936-4d22-a244-150df923ef44)
+
 
 # SQL Querying - Restaurant Sales Internal Benchmarking:
 
@@ -90,7 +91,6 @@ The disparity in average sales value could be due to a number of could be due to
 General Observations show that the average sales are **highest during April and Lowest during June and store 12631 doing well across the months whereas store 46673 is not doing well across the different months**
 
 This information can therefore be used to identify monthly or seasonal patterns where the earlier mention meal-deal promotions could be best suited to drive an increase in sales during months when revenue is generally lower and even more specificy at the store level. 
-
 <br></br>
 
 **Top 5 ingredients used within purchased items recipes/sub-recipes across all stores**
@@ -153,6 +153,18 @@ It might be useful to check in with this store and query why these volume of fre
 
 Therefore there is potential to try and increase sales and profit by targetting the majority splits through deals on foods associated more so with customer eat-in/take-aways. Further, there is also opportunity to adapt items, e.g. convenient containers for restaurants 12631 and 20974 to make take-away more convenient which could translate to more repeat customers that prefer take-away. Lastly, it also begs the question 'why do restaurants 12631 and 20974 have such low take-away sales'?
 <br></br>
+
+**Top 5 Menu Items for Eat-in/Take-away for Each Restaurant**
+
+![image](https://github.com/user-attachments/assets/3507273c-0a8c-4b81-957d-10b25524304b)
+
+summary: store 4904 and 46673 has a more distributed split of takeaway/eat-in amongst convenience/'on-the-go' products such as bottled water, chips and cookies
+stores 12631 and 20974 show on a tiny majority of even the most popular food choices are eaten as takeaway/to-go
+could deals be used to incentivise eating food on the go (discounnts/promotions, bundle deals or more accesible ordering associated with online
+e.g. curbside pickup or the ability to order ahead of time using a molbile order app or even gamification for to-go orders
+fruther both better performing stores for eat-in/to-go split are in california which could indicate cultural customer behaviour or restaurant designs/operating logistics
+<br></br>
+
 
 # Power BI Dashboard:
 
