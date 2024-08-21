@@ -158,14 +158,9 @@ Therefore there is potential to try and increase sales and profit by targetting 
 
 ![image](https://github.com/user-attachments/assets/3507273c-0a8c-4b81-957d-10b25524304b)
 
-![image](https://github.com/user-attachments/assets/970f7ec4-c6d0-4a69-bc25-9d6c7f3d3ea5)
+Overall summary: **store 4904 and 46673 has a more distributed split of takeaway/eat-in amongst convenience/'on-the-go' products such as bottled water, chips and cookies. Conversely, stores 12631 and 20974 show only a tiny majority of even the most popular food choices are eaten as takeaway/to-go.**
 
-
-summary: store 4904 and 46673 has a more distributed split of takeaway/eat-in amongst convenience/'on-the-go' products such as bottled water, chips and cookies
-stores 12631 and 20974 show on a tiny majority of even the most popular food choices are eaten as takeaway/to-go
-could deals be used to incentivise eating food on the go (discounnts/promotions, bundle deals or more accesible ordering associated with online
-e.g. curbside pickup or the ability to order ahead of time using a molbile order app or even gamification for to-go orders
-fruther both better performing stores for eat-in/to-go split are in california which could indicate cultural customer behaviour or restaurant designs/operating logistics
+Thus, could deals be used to incentivise eating food on the go (discounnts/promotions, bundle deals or more accesible ordering associated with online e.g. curbside pickup or the ability to order ahead of time using a mobile order app or even gamification for to-go orders. Further, both better performing stores for eat-in/to-go split are in california which could indicate cultural customer behaviour or restaurant designs/operating logistics.
 <br></br>
 
 
