@@ -149,13 +149,9 @@ It might be useful to check in with this store and query why these volume of fre
 
 ![image](https://github.com/user-attachments/assets/84d1b95b-96a1-49e1-af9e-4af894f76c13)
 
-store_id of 4904 has a 65/35 split for eat-in/take-away sales 
-store id of 12631 has an almost unanimously eat-in sales
-store id of 20974 has an almost unanimously eat-in sales 
-store id of 46673 has a 73/27 split for eat-in/take-away sales
-potential to try and increase sales and profit by targetting the majority splits through deals on foods associated more so with customer eat-in/take-aways
-can also adapt items e.g. convenient containers for restaurants 12631 and 20974 to make take-away more convenient which could translate to more repeat customers
-why do restaurants 12631 and 20974 have such low take-away sales?
+**The store_id of 4904 has a ~ 65/35 split for eat-in/take-away sales. Both store idd 12631 and 20974 has an almost unanimously eat-in sales. Whereas, store id of 46673 has a 73/27 split for eat-in/take-away sales**
+
+Therefore there is potential to try and increase sales and profit by targetting the majority splits through deals on foods associated more so with customer eat-in/take-aways. Further, there is also opportunity to adapt items, e.g. convenient containers for restaurants 12631 and 20974 to make take-away more convenient which could translate to more repeat customers that prefer take-away. Lastly, it also begs the question 'why do restaurants 12631 and 20974 have such low take-away sales'?
 <br></br>
 
 # Power BI Dashboard:
