@@ -44,8 +44,8 @@ Once the data was populated into the mySQL schema I could begin to conduct my an
 
 - [Overall Restaurant Sales Analysis](#overall-restaurant-sales-analysis)
 - [Menu Item Analysis](#menu-item-analysis)
-- Discount Analysis
-- Customer Behaviour Analysis
+- [Discount Analysis](#discount-analysis)
+- [Customer Behaviour Analysis](#customer-behaviour-analysis)
 
 ## Overall Restaurant Sales Analysis
 
