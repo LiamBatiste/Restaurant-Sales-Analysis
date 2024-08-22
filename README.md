@@ -1,5 +1,6 @@
 # Restaurant-Sales-Analysis
-![image](https://github.com/user-attachments/assets/b39ea51c-19ea-4b6d-9227-f33f62b37f45)
+![image](https://github.com/user-attachments/assets/9a0aa1c4-2a55-41da-9937-9702f9ed0ae3)
+
 
 ### Introduction
 Welcome to my Restaurant Sales Analysis repository! This project was developed to address critical challenges in the fast food industry. The primary goal is to internally benchmark key metrics that can help the business improve overall efficiency and maximise profits.
