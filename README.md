@@ -188,8 +188,9 @@ The Power BI dashboard was designed to visually represent the insights derived f
 
 https://github.com/user-attachments/assets/fabffaf0-dd14-4817-85e1-e082cb5f8739
 
+The dashboard can provide value through key metrics such as the **three KPIs provided (total sales, average order value and average adjusted price loss)**, which allows ley stakeholders such as restaurant managers, area managers, financial teams, marketing teams or even investors or stakeholders. 
 
-
+The ability to filter by specific time periods means that performance can be measured at different levels by drilling down into the time series slicer. The ability to also filter by different levels for fast food restaurants is also useful for comparing by State, City or invidual restaurant, allowing restaurants to be further investigated if performance is exceptional so that 
 # Technical Challenges
 
 # Appendix
