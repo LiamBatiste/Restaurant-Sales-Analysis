@@ -177,9 +177,10 @@ Overall summary: **store 4904 and 46673 has a more distributed split of takeaway
 Thus, could deals be used to incentivise eating food on the go (discounts/promotions, bundle deals or more accesible ordering associated with online e.g. curbside pickup or the ability to order ahead of time using a mobile order app or even gamification for to-go orders. Further, both better performing stores for eat-in/to-go split are in california which could indicate cultural customer behaviour or restaurant designs/operating logistics.
 <br></br>
 
-The next step of this internal benchmarking was to create a dashboard that would 
+The next step of this internal benchmarking was to create a dashboard that would allow KPIs and the most important high level ingsights to tell a story at a glance. 
 # Power BI Dashboard:
 
+The Power BI dashboard was designed to visually represent the insights derived from the SQL analysis. The goal was to create a user-friendly, interactive tool that allows stakeholders to easily explore key metrics and trends across the restaurant chain.
 https://github.com/user-attachments/assets/fabffaf0-dd14-4817-85e1-e082cb5f8739
 
 
