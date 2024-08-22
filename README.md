@@ -1,6 +1,6 @@
 # Restaurant-Sales-Analysis
 ![image](https://github.com/user-attachments/assets/9a0aa1c4-2a55-41da-9937-9702f9ed0ae3)
-
+- 
 
 ### Introduction
 Welcome to my Restaurant Sales Analysis repository! This project was developed to address critical challenges in the fast food industry. The primary goal is to internally benchmark key metrics that can help the business improve overall efficiency and maximise profits.
@@ -188,7 +188,9 @@ The Power BI dashboard was designed to visually represent the insights derived f
 
 https://github.com/user-attachments/assets/fabffaf0-dd14-4817-85e1-e082cb5f8739
 
+# Technical Challenges
 
+# Appendix
 
 
 
