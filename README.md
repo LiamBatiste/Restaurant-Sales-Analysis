@@ -181,7 +181,7 @@ The next step of this internal benchmarking was to create a dashboard that would
 # Power BI Dashboard:
 
 The Power BI dashboard was designed to visually represent the insights derived from the SQL analysis. The goal was to create a user-friendly, interactive tool that allows stakeholders to easily explore key metrics and trends across the restaurant chain, these include: 
-- Overall Sales Performance
+- Overall Sales Performance and Trends
 - Menu Item Analysis
 - Discount and Pricing Insights
 - Customer Loyalty Engagement
