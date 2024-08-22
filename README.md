@@ -6,7 +6,7 @@
 Welcome to my Restaurant Sales Analysis repository! This project was developed to address critical challenges in the fast food industry. The primary goal is to internally benchmark key metrics that can help the business improve overall efficiency and maximise profits.
 
 ### **Problem Statement:**
-To enhance the internal competitive positioning and operational efficiency of the restaurant chain, it is crucial to identify key performance drivers and areas for improvement across the menu offerings, store locations, and customer behaviors. Through comprehensive analysis of sales trends, ingredient usage, customer purchase patterns, and store-specific performance, I aim to establish benchmarks that will inform strategic decisions, optimise resource allocation, and improve profitability. By comparing these internal metrics, I seek to uncover actionable insights that will lead to more effective pricing strategies, better inventory management, and enhanced customer satisfaction across all locations 
+To enhance the internal competitive positioning and operational efficiency of the restaurant chain, it is crucial to identify key performance drivers and areas for improvement across the menu offerings, store locations, and customer behaviors. Through analysis of sales trends, ingredient usage, customer purchase patterns, and store-specific performance, I aim to establish benchmarks that will inform strategic decisions, optimise resource allocation, and improve profitability. By comparing these internal metrics, I seek to uncover actionable insights that will lead to more effective pricing strategies, better inventory management, and enhanced customer satisfaction across all locations 
 
 ### Dataset
 The dataset used for this analysis was taken from [Kaggle - Fast-Food Restaurant Chain](https://www.kaggle.com/datasets/rishitsaraf/fast-food-restaurant-chain/data?select=recipe_sub_recipe_assignments.csv). The dataset was provided by one of the largest fast-food restaurant chains in the US. It includes (1) transaction information such as menu items that were purchased and quantities of each item; (2) ingredient lists for individual menu items; (3) metadata on restaurants, including location, and store type. The data observation window is from early March, 2015 to 06/15/2015 and includes transactional data from 2 stores in Berkeley, CA and 2 stores in New York, NY.
@@ -41,7 +41,7 @@ The data was brought into SQL using the now cleaned and prepared CSV files (Seee
 
 ### Insights through mySQL:
 
-Once the data was populated into the mySQL schema I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
+Once the data was populated into the mySQL schema and I had created the relevant Views witin SQL to speed up my workflow by collating and connecting the relevant fields I would frequently be querying, I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
 
 - [Overall Restaurant Sales Analysis](#overall-restaurant-sales-analysis)
 - [Menu Item Analysis](#menu-item-analysis)
@@ -109,11 +109,11 @@ Clearly chips are in high demand across all stores and so including this item as
 
 Through observartion **the Cheese Portion (menu item id: 914) appears in store 4904 with a total revenue of $0.30 and in store 46673 with a total revenue of $0.15.**
 
-This might indicate that the item should be discontinued from said store or company wide or apply a promotio and then monitor item performance. 
+This might indicate that the item should be discontinued from said store or company wide or apply a promotio and then monitor item performance. An exclusive loyalty card offer on select products which underperforming might be useful to boost sales of said items. 
 
 Additonally,**the store id 20974 is selling a higher number of the same item at no charge.** 
 
-It might be useful to check in with this store and query why these volume of free items is so much higher or even ensure that staff a trained/retrained on discount and sales processes.
+It might be useful to check in with this store and query why these volume of free items is so much higher or even ensure that staff a trained/retrained on discount and sales processes. 
 <br></br>
 
 **Top 5 ingredients used within purchased items recipes/sub-recipes across all stores**
@@ -174,10 +174,10 @@ Therefore there is potential to try and increase sales and profit by targetting 
 
 Overall summary: **store 4904 and 46673 has a more distributed split of takeaway/eat-in amongst convenience/'on-the-go' products such as bottled water, chips and cookies. Conversely, stores 12631 and 20974 show only a tiny majority of even the most popular food choices are eaten as takeaway/to-go.**
 
-Thus, could deals be used to incentivise eating food on the go (discounnts/promotions, bundle deals or more accesible ordering associated with online e.g. curbside pickup or the ability to order ahead of time using a mobile order app or even gamification for to-go orders. Further, both better performing stores for eat-in/to-go split are in california which could indicate cultural customer behaviour or restaurant designs/operating logistics.
+Thus, could deals be used to incentivise eating food on the go (discounts/promotions, bundle deals or more accesible ordering associated with online e.g. curbside pickup or the ability to order ahead of time using a mobile order app or even gamification for to-go orders. Further, both better performing stores for eat-in/to-go split are in california which could indicate cultural customer behaviour or restaurant designs/operating logistics.
 <br></br>
 
-
+The next step of this internal benchmarking was to create a dashboard that would 
 # Power BI Dashboard:
 
 https://github.com/user-attachments/assets/fabffaf0-dd14-4817-85e1-e082cb5f8739
