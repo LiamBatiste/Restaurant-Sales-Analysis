@@ -199,7 +199,10 @@ The ability to **slice specific time periods** means that performance can be mea
 ### Deep Dive Analysis
 There is also possibilty for a **deep dive analysis of restaurant by sales quantity**. In effect this means stakeholder can identify which items are top sellers and what this might imply about customer preferences. Secondly, the stacked bar chart (bottom middle visual) displays the **top 5 item by total adjusted price loss by resurants**, this can provide value through identifying the items that have the highest adjusted price loss, explaining how this could indicate potential issues with pricing strategies or discounts (that may even be restaurant specific). The dashbaord can be used to gain insight centered around **discount distribution by loyalty program participation** which will give an indication of loyalty programme success through conversion rate. 
 
+## Sechduled Refresh
+The dashboard was published to the web to enable the option for scheduled refresh, which is useful for automatically pulling in fresh data from source systems and updating the visuals accordingly. However, for this particular project, there isn't a need to enable scheduled refresh since the data does not require periodic updates. The dashboard is not pulling fresh data from external source systems (data ingestion), making scheduled refresh redundant in this scenario.
 
+If the project were to involve real-time data updates, such as pulling data from a REST API, enabling scheduled refresh would be necessary. In that case, the feature would allow the dashboard to automatically ingest new data as it becomes available and update the visuals to reflect the latest information.
 
 # Technical Challenges
 
