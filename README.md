@@ -1,7 +1,5 @@
+# Subway Restaurant-Sales-Analysis
 ![Project Preview](subway_image_preview.png)
-
-# Restaurant-Sales-Analysis
-![image](https://github.com/user-attachments/assets/9bea7e9e-d80b-4499-a107-5a54b0d62d90)
 
 ### Introduction
 Welcome to my Restaurant Sales Analysis repository! This project was developed to address critical challenges in the fast food industry. The primary goal is to internally benchmark key metrics that can help the business improve overall efficiency and maximise profits.
