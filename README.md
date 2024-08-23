@@ -241,8 +241,8 @@ Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MyS
 ![image](https://github.com/user-attachments/assets/db695144-c5cb-46c2-be41-6141ad8d6e78)
 
 ### sql query snippets
-**SQL query example - Restaurant Sales View**
+**SQL query example - Restaurant Sales View:**
 ![image](https://github.com/user-attachments/assets/70b80ffd-4581-4fc3-945f-ba15a0f0161e)
 
-**SQL query example - top 5 ingredients total quantities**
+**SQL query example - top 5 ingredients total quantities:**
 ![image](https://github.com/user-attachments/assets/a3ef10b5-cf80-4327-af7b-680e2c2af223)
