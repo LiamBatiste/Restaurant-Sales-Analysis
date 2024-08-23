@@ -188,9 +188,19 @@ The Power BI dashboard was designed to visually represent the insights derived f
 
 https://github.com/user-attachments/assets/fabffaf0-dd14-4817-85e1-e082cb5f8739
 
-The dashboard can provide value through key metrics such as the **three KPIs provided (total sales, average order value and average adjusted price loss)**, which allows ley stakeholders such as restaurant managers, area managers, financial teams, marketing teams or even investors or stakeholders. 
+### Key Metrics
 
-The ability to filter by specific time periods means that performance can be measured at different levels by drilling down into the time series slicer. The ability to also filter by different levels for fast food restaurants is also useful for comparing by State, City or invidual restaurant, allowing restaurants to be further investigated if performance is exceptional so that 
+The dashboard can provide value through key metrics such as the **three KPIs provided (total sales, average order value and average adjusted price loss)**, which allows ley stakeholders such as restaurant managers, area managers, financial teams, marketing teams or even investors or stakeholders to monitor revenue, the impact of sales, promotions or seasonal/limited items. 
+
+### Slicing and Filtering 
+
+The ability to **slice specific time periods** means that performance can be measured at different levels by drilling down into the time series slicer. The ability to **filter by different levels for fast food restaurants** is also useful for comparing by State, City or invidual restaurant, allowing restaurants to be further investigated if performance is exceptional so that it can be replicated across other stores. For example if a specific restaurant trials a meal-deal promotion specific to loyalty members and it showed success, the promotion could be rolled out state wide. 
+
+### Deep Dive Analysis
+There is also possibilty for a **deep dive analysis of restaurant by sales quantity**. In effect this means stakeholder can identify which items are top sellers and what this might imply about customer preferences. Secondly, the stacked bar chart (bottom middle visual) displays the **top 5 item by total adjusted price loss by resurants**, this can provide value through identifying the items that have the highest adjusted price loss, explaining how this could indicate potential issues with pricing strategies or discounts (that may even be restaurant specific). The dashbaord can be used to gain insight centered around **discount distribution by loyalty program participation** which will give an indication of loyalty programme success through conversion rate. 
+
+
+
 # Technical Challenges
 
 # Appendix
