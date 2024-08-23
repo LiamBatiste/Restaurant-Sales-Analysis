@@ -205,6 +205,11 @@ The dashboard was published to the web to enable the option for scheduled refres
 If the project were to involve real-time data updates, such as pulling data from a REST API, enabling scheduled refresh would be necessary. In that case, the feature would allow the dashboard to automatically ingest new data as it becomes available and update the visuals to reflect the latest information.
 
 # Technical Challenges
+- redundant data
+- removing/replaing missing data (python)
+- understanding the recipe/sub-recipe relationships
+- incorrectly formatted dates when populating schema in SQL
+- MySQL required Connector/ODBC driver to bring data in from MySQL server
 
 # Appendix
 
