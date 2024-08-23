@@ -212,9 +212,9 @@ Although the data set is from Kaggle, it is still important to check the dataset
 Understanding the recipe/sub-recipe relationships for each menu item to calculate ingredients was troublesome because I could not wrap my head around the way to calculate ingredients for sale based off what was ordered. This is why: 
 ![image](https://github.com/user-attachments/assets/28c2e3a7-cda4-495a-98ae-6e66068a6595)
 
+With menu items there are 3 possible ways that the item is made up. Either the menu item contains only sub-recipes, or the menu item contains only recipes or a combination of both. Therefore to calculate the total quantity of igredients used based on number of sales that includes a menu item (an ultimately it's sub-parts), a left join, along with coalesce function default null values to 0. This allowed for the total quantity to be accurately calculated. 
 
-
-- MySQL required Connector/ODBC driver to bring data in from MySQL server
+Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MySQL server to Power BI. This way useful as it allowed views I had used within mySQL to also be used within Power BI for sales insights, along with a the correct schema. 
 
 # Appendix
 
