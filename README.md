@@ -246,8 +246,3 @@ Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MyS
 
 **SQL query example - top 5 ingredients total quantities**
 ![image](https://github.com/user-attachments/assets/a3ef10b5-cf80-4327-af7b-680e2c2af223)
-
-**SQL query example - Top 5 items by average discount price**
-![image](https://github.com/user-attachments/assets/619b60af-ce1e-4ac2-ad51-fa2ea22eb65c)
-
-
