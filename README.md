@@ -217,14 +217,17 @@ With menu items there are 3 possible ways that the item is made up. Either the m
 Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MySQL server to Power BI. This way useful as it allowed views I had used within mySQL to also be used within Power BI for sales insights, along with a the correct schema. 
 
 # Appendix
-### python snippets
+### Python snippets
 Python data cleaning example - removal of excel name error records:
 ![image](https://github.com/user-attachments/assets/2321fded-926b-4e77-bd48-bd022fe2f190)
 
 Python data cleaning example - check duplicates, null values and data types:
 ![image](https://github.com/user-attachments/assets/239c460d-f976-4547-b711-553541f0abfe)
 
-- db.io code
+### dbdiagram.io code
+Database Schema snippet
+![image](https://github.com/user-attachments/assets/42756683-8038-454b-83a2-5eea42270a36)
+
 - sql schema snippets
 - dax? 
 
