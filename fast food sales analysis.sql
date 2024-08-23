@@ -1,3 +1,5 @@
+SELECT date from restaurant_sales;
+
 -- created view for wide usage on problems related to the restaurant sales and for later Power BI dashboard for benchmarking
 CREATE VIEW restaurant_sales AS
 SELECT
@@ -24,10 +26,11 @@ JOIN purchased_items ON purchased_items.md5key_order_sale = pos_order_sale.md5ke
 JOIN store_restaurant ON store_restaurant.id = pos_order_sale.store_id
 JOIN menu_items ON menu_items.id = purchased_items.menu_item_id;
 
+
 SELECT * FROM restaurant_sales
 ORDER BY date DESC;
 
--- Problem Statement 1: Analyzing Sales Performance
+-- Sales Performance
 -- Objective: Determine which items perform best across all/each store 
 -- Task: Write a query to determine the top 5 menu items based on total sales (in terms of quantity sold and revenue generated) across all stores.
 -- Task: Write a query to determine the top 5 menu items based on total sales (in terms of quantity sold and revenue generated) across each store.
@@ -55,19 +58,26 @@ WITH rest_quant_rev AS (
 		store_id,
 		menu_item_id,
 		description,
+        price,
 		SUM(quantity) AS total_quantity_sold,
 		SUM(adjusted_price) AS total_revenue
 	FROM
 		restaurant_sales
-	GROUP BY store_id, menu_item_id, description, quantity
+	GROUP BY store_id, menu_item_id, description, quantity, price
 	ORDER BY total_revenue DESC
 )
 
 SELECT * FROM rest_quant_rev
 ORDER BY total_quantity_sold DESC
 LIMIT 5;
--- top 5 items sold across all stores by total_revenue (chips across 3 different stores, 21oz Fountain Drink across 2 different stores)
--- chips and fountain water may perform well across different store due to price?
+-- top 5 items sold across all stores by quantity sold (chips across 3 different stores, 21oz Fountain Drink across 2 different stores)
+-- chips and fountain water may perform well across different store due to low price compared to other menu items?
+
+SELECT 
+	store_id, 
+	avg(price) FROM restaurant_sales
+GROUP BY store_id;
+-- foutain drink and chips well below the average price and so can be considered budget-friendly items which may explain high sales volume across stores.
 
 WITH rest_quant_rank AS (
 	SELECT 
@@ -117,10 +127,10 @@ ORDER BY revenue_rank, store_id;
 -- highest quantity sold for each store (chips for all stores)
 -- highest revenue for each store (Turkey FtLong across 2 stores, Chicken Teriyaki FtLong, 21oz Fountain Drink)     
 
+
 -- Problem Statement 2: Ingredient Usage Analysis
 -- Objective: Determine which ingredients are most commonly used across all recipes.
 -- Task: Write a query to find out which ingredients are used the most (by quantity) across all recipes.
-
 SELECT 
     ingredients.id, 
     ingredients.ingredient_name, 
@@ -258,7 +268,7 @@ SELECT
 FROM
     restaurant_sales
 WHERE
-    date BETWEEN '2024-01-01' AND '2024-12-31'
+    date BETWEEN '2023-08-20' AND '2024-08-20'
 GROUP BY menu_item_id , description
 ORDER BY total_discount DESC , total_sales DESC
 LIMIT 5;
@@ -276,7 +286,7 @@ WITH item_disc_sales AS (SELECT
 FROM
     restaurant_sales
 WHERE
-    date BETWEEN '2024-01-01' AND '2024-12-31'
+    date BETWEEN '2023-08-20' AND '2024-08-20'
 GROUP BY menu_item_id , description, price
 )
 
@@ -305,7 +315,7 @@ WITH item_disc_sales AS (SELECT
 FROM
     restaurant_sales
 WHERE
-    date BETWEEN '2024-01-01' AND '2024-12-31'
+    date BETWEEN '2023-08-20' AND '2024-08-20'
 GROUP BY menu_item_id , description, price
 ),
 average_sale_quant AS (SELECT 

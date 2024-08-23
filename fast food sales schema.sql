@@ -107,6 +107,22 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (menu_item_desc, PLU, id, recipe_id);
 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/pos_ordersale.csv'
+INTO TABLE pos_order_sale
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(md5key_order_sale, 
+change_recieved, 
+order_number, 
+tax_inclusive_amount, 
+tax_amount, 
+meal_location, 
+transaction_id, 
+store_id,
+date);
+
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/menuitem.csv'
 INTO TABLE purchased_items
 FIELDS TERMINATED BY ','
@@ -128,9 +144,6 @@ quantity,
 PLU, 
 menu_item_id, 
 date);
-
-SELECT * FROM purchased_items;
-
 
 -- ALTER TABLE `ingredients` ADD FOREIGN KEY (`portion_uom_type_id`) REFERENCES `portions_uom_types` (`id`);
 
