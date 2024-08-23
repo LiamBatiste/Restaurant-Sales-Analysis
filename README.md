@@ -218,25 +218,25 @@ Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MyS
 
 # Appendix
 ### Python snippets
-Python data cleaning example - removal of excel name error records:
+**Python data cleaning example - removal of excel name error records:**
 
 ![image](https://github.com/user-attachments/assets/2321fded-926b-4e77-bd48-bd022fe2f190)
 
-Python data cleaning example - check duplicates, null values and data types:
+**Python data cleaning example - check duplicates, null values and data types:**
 
 ![image](https://github.com/user-attachments/assets/239c460d-f976-4547-b711-553541f0abfe)
 
 ### dbdiagram.io code
-Database Schema code snippet:
+**Database Schema code snippet:**
 
 ![image](https://github.com/user-attachments/assets/42756683-8038-454b-83a2-5eea42270a36)
 
 ### sql schema snippets
-sql schema excample - ingredients table:
+**sql schema excample - ingredients table:**
 
 ![image](https://github.com/user-attachments/assets/f9eaca07-3330-408b-9ccb-ffda4de4038e)
 
-sql schema example - relationships:
+**sql schema example - relationships:**
 
 ![image](https://github.com/user-attachments/assets/db695144-c5cb-46c2-be41-6141ad8d6e78)
 
