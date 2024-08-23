@@ -1,4 +1,4 @@
-![Project Preview](subway image preview.png)
+![Project Preview](subway_image_preview.png)
 
 # Restaurant-Sales-Analysis
 ![image](https://github.com/user-attachments/assets/9bea7e9e-d80b-4499-a107-5a54b0d62d90)
