@@ -210,6 +210,7 @@ The first technical challenged faced was the high volume of redundant data, in a
 Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across datatypes within the CSV file. I did make one oversight for which I had to later go back and ammend. This involved converting the date datatypes to the required format to be compatable with mySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI.
 
 Understanding the recipe/sub-recipe relationships for each menu item to calculate ingredients was troublesome because I could not wrap my head around the way to calculate ingredients for sale based off what was ordered. This is why: 
+![image](https://github.com/user-attachments/assets/28c2e3a7-cda4-495a-98ae-6e66068a6595)
 
 
 
