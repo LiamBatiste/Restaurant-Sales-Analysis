@@ -6,7 +6,7 @@
 Welcome to my Restaurant Sales Analysis repository! This project was developed to address critical challenges in the fast food industry. The primary goal is to internally benchmark key metrics that can help the business improve overall efficiency and maximise profits.
 
 ### **Problem Statement:**
-To enhance the internal competitive positioning and operational efficiency of the restaurant chain, it is crucial to identify key performance drivers and areas for improvement across the menu offerings, store locations, and customer behaviors. Through analysis of sales trends, ingredient usage, customer purchase patterns, and store-specific performance, I aim to establish benchmarks that will inform strategic decisions, optimise resource allocation, and improve profitability. By comparing these internal metrics, I seek to uncover actionable insights that will lead to more effective pricing strategies, better inventory management, and enhanced customer satisfaction across all locations 
+To enhance the internal competitive positioning and operational efficiency of the restaurant chain, it is crucial to identify key performance drivers and areas for improvement across the menu offerings, store locations, and customer behaviours. Through analysis of sales trends, ingredient usage, customer purchase patterns, and store-specific performance, I aim to establish benchmarks that will inform strategic decisions, optimise resource allocation, and improve profitability. By comparing these internal metrics, I seek to uncover actionable insights that will lead to more effective pricing strategies, better inventory management, and enhanced customer satisfaction across all locations 
 
 ### Dataset
 The dataset used for this analysis was taken from [Kaggle - Fast-Food Restaurant Chain](https://www.kaggle.com/datasets/rishitsaraf/fast-food-restaurant-chain/data?select=recipe_sub_recipe_assignments.csv). The dataset was provided by one of the largest fast-food restaurant chains in the US. It includes (1) transaction information such as menu items that were purchased and quantities of each item; (2) ingredient lists for individual menu items; (3) metadata on restaurants, including location, and store type. The data observation window is from early March, 2015 to 06/15/2015 and includes transactional data from 2 stores in Berkeley, CA and 2 stores in New York, NY.
@@ -20,9 +20,9 @@ To ensure accurate and meaningful analysis, the first step was to prepare the da
 
 - Handling Missing Values: Removed or imputed missing data to ensure consistency, such as record with '#NAME?' values being dropped.
 
-- Data Type Conversion: Converted data types such as date types to the correct format so they compatible with SQL DATE datatype as part of a later schema. 
+- Data Type Conversion: Converted data types such as date types to the correct format so they compatible with SQL DATE data type as part of a later schema. 
 
-- Removing Duplicates: Identified and removed any duplicate records to maintain data integrity such as columns that were similar in nature like the item description and name.
+- Removing Duplicates: Identified and removed any duplicate records to maintain data integrity, such as columns that were similar in nature like the item description and name.
 
 With respect to data normalisation, given that the data was taken from Kaggle, the data was already in a state which allowed for comparison across all metrics. 
 
@@ -41,7 +41,7 @@ The data was brought into SQL using the now cleaned and prepared CSV files (Seee
 
 ### Insights through mySQL:
 
-Once the data was populated into the mySQL schema and I had created the relevant Views witin SQL to speed up my workflow by collating and connecting the relevant fields I would frequently be querying, I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
+Once the data was populated into the mySQL schema and I had created the relevant Views within SQL to speed up my workflow by collating and connecting the relevant fields I would frequently be querying, I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
 
 - [Overall Restaurant Sales Analysis](#overall-restaurant-sales-analysis)
 - [Menu Item Analysis](#menu-item-analysis)
@@ -56,7 +56,7 @@ Once the data was populated into the mySQL schema and I had created the relevant
 
 The order of average order value by store id is as follows; **(high to low) Store 20974: £3.66, Store 4904: £3.52, Store 46673: £3.39, Store 12631: £3.32**
 
-The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluency where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area as they highly comparable (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
+The disparity in average sales value could be due to a number of could be due to a number of factors such as the selling price of items across stores or the affluenc where the restaurant is based. The implications of this finding can be used a internal benchmark to monitor the performance of restaurants against one another, which can be particularly useful for restaurants in a similar area as they highly comparable (due to similar target market) such as store id of 4904 and 46673 as they are both based in Berkley. 
 <br></br>
 
 **Store Total Sale Revenue Over Each Month**
@@ -65,7 +65,7 @@ The disparity in average sales value could be due to a number of could be due to
 
 General Observations show that the average sales are **highest during April and Lowest during June and store 12631 doing well across the months whereas store 46673 is not doing well across the different months**
 
-This information can therefore be used to identify monthly or seasonal patterns where the earlier mention meal-deal promotions could be best suited to drive an increase in sales during months when revenue is generally lower and even more specificy at the store level. 
+This information can therefore be used to identify monthly or seasonal patterns where the earlier mention meal-deal promotions could be best suited to drive an increase in sales during months when revenue is generally lower and even more specifically at the store level. 
 <br></br>
 
 ## Menu Item Analysis
@@ -77,7 +77,7 @@ This information can therefore be used to identify monthly or seasonal patterns 
 As shown above, the top 5 items sold across all stores by total revenue was;
 **1st - Turkey Foot Long, 2nd - Chicken Teriyaki Foot Long, 3rd - Tuna Foot Long, 4th - 21oz Fountain Drink, 5th - Roast Chicken Foot Long**. 
 
-This insight could potentially be leveraged by the company during promotions as they appeal to the largest sector with respect to sales and potentially drive more overall sales. Further, the best performing items are generally 'main meal' items so could be used as part of a meal-deal promotion to incentives repeat customers. 
+This insight could potentially be leveraged by the company during promotions as they appeal to the largest sector with respect to sales and potentially drive more overall sales. Further, the best performing items are generally 'main meal' items, so could be used as part of a meal-deal promotion to incentives repeat customers. 
 <br></br>
 
 **Sales performance by top 5 menu items for total sales quantity across all stores**
@@ -109,11 +109,11 @@ Clearly chips are in high demand across all stores and so including this item as
 
 Through observartion **the Cheese Portion (menu item id: 914) appears in store 4904 with a total revenue of $0.30 and in store 46673 with a total revenue of $0.15.**
 
-This might indicate that the item should be discontinued from said store or company wide or apply a promotio and then monitor item performance. An exclusive loyalty card offer on select products which underperforming might be useful to boost sales of said items. 
+This might indicate that the item should be discontinued from said store or company-wide or apply a promotion and then monitor item performance. An exclusive loyalty card offer on select products which underperforming might be useful to boost sales of said items. 
 
 Additonally,**the store id 20974 is selling a higher number of the same item at no charge.** 
 
-It might be useful to check in with this store and query why these volume of free items is so much higher or even ensure that staff a trained/retrained on discount and sales processes. 
+It might be useful to check in with this store and query why these volume of free items is so much higher, or even ensure that staff a trained/retrained on discount and sales processes. 
 <br></br>
 
 **Top 5 ingredients used within purchased items recipes/sub-recipes across all stores**
@@ -122,7 +122,7 @@ It might be useful to check in with this store and query why these volume of fre
 
 The top 5 ingredients were; **Chicken Strips - (441218 Grams), Turkey - (350805 Grams), Ham - (266280 Grams), Marinara - (176476 Grams), Roast Beef - (165790 Grams)**
 
-This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use a certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
+This Insight can be leveraged through an estimation of the required stock for different time periods. In this case it has been processed using the whole data set (March to June), however a similar style of query could also be used seasonally or monthly to ensure that items that use certain ingredients that are in high demand are not out of stock, resulting in higher customer satisfaction. 
 <br></br>
 
 ## Discount Analysis
@@ -133,16 +133,16 @@ This Insight can be leveraged through an estimation of the required stock for di
 
 It can be seen that the order of average discount for items was (high to low); **Steak & Cheese Flat Bread, Veggie Patty Flat Bread, Roast Chicken Flat Bread, Chicken Parmesan, 6 inch Buffalo Chicken Foot Long**
 
-This may be due to deals that are associated with these specific items that could be as part of events, seasons or cross-brading. This data can be utilised to ensure that restaurants are not applying to much discount to items but also can give target items for monitoring for example to trial if discounts increase overall sales quantity/revenue by a certain threshold possibly through hypothesis testing. 
+This may be due to deals that are associated with these specific items that could be as part of events, seasons or cross-branding. This data can be utilised to ensure that restaurants are not applying to much discount to items but also can give target items for monitoring, for example to trial if discounts increase overall sales quantity/revenue by a certain threshold, possibly through hypothesis testing. 
 <br></br>
 
 **Top 5 Items with Highest Average Percentage of Sales Discount Against Total Item Price**
 
 ![image](https://github.com/user-attachments/assets/b64b6972-3d03-4406-befb-c40700bab798)
 
-The top 5 items by average discount (percentage) based off sales volume against item price this year are as follows; **Turkey 6 inch (~ 26%), Milk (~ 22%), Cookie (~ 22%), Steak & Chse FtLong (~ 22%), Turkey 6 inch (~ 16%)**
+The top 5 items by average discount (percentage) based off sales volume against item price this year are as follows; **Turkey 6 inch (~ 26%), Milk (~ 22%), Cookie (~ 22%), Steak & Cheese Foot Long (~ 22%), Turkey 6 inch (~ 16%)**
 
-It is important to consider that I have used _(average discount for sales)/price_ this is more appropriate to analyse customer behavior in terms of how often they are availing of discounts on a specific item. Whereas I could have also looked at (average disc by quantity)/price this would be used to assess the impact of discounts on the volume of products sold.
+It is important to consider that I have used _(average discount for sales)/price_ this is more appropriate to analyse customer behaviour in terms of how often they are availing of discounts on a specific item. Whereas I could have also looked at (average disc by quantity)/price this would be used to assess the impact of discounts on the volume of products sold.
 <br></br>
 
 ## Customer Behaviour Analysis
@@ -174,10 +174,10 @@ Therefore there is potential to try and increase sales and profit by targetting 
 
 Overall summary: **store 4904 and 46673 has a more distributed split of takeaway/eat-in amongst convenience/'on-the-go' products such as bottled water, chips and cookies. Conversely, stores 12631 and 20974 show only a tiny majority of even the most popular food choices are eaten as takeaway/to-go.**
 
-Thus, could deals be used to incentivise eating food on the go (discounts/promotions, bundle deals or more accesible ordering associated with online e.g. curbside pickup or the ability to order ahead of time using a mobile order app or even gamification for to-go orders. Further, both better performing stores for eat-in/to-go split are in california which could indicate cultural customer behaviour or restaurant designs/operating logistics.
+Thus, could deals be used to incentivise eating food on the go (discounts/promotions, bundle deals or more accessible ordering associated with online e.g. curbside pickup or the ability to order ahead of time using a mobile order app or even gamification for to-go orders. Further, both better performing stores for eat-in/to-go split are in California which could indicate cultural customer behaviour or restaurant designs/operating logistics.
 <br></br>
 
-The next step of this internal benchmarking was to create a dashboard that would allow KPIs and the most important high level ingsights to tell a story at a glance. 
+The next step of this internal benchmarking was to create a dashboard that would allow KPIs and the most important high level insights to tell a story at a glance. 
 # Power BI Dashboard:
 
 The Power BI dashboard was designed to visually represent the insights derived from the SQL analysis. The goal was to create a user-friendly, interactive tool that allows stakeholders to easily explore key metrics and trends across the restaurant chain, these include: 
@@ -194,20 +194,20 @@ The dashboard can provide value through key metrics such as the **three KPIs pro
 
 ### Slicing and Filtering 
 
-The ability to **slice specific time periods** means that performance can be measured at different levels by drilling down into the time series slicer. The ability to **filter by different levels for fast food restaurants** is also useful for comparing by State, City or invidual restaurant, allowing restaurants to be further investigated if performance is exceptional so that it can be replicated across other stores. For example if a specific restaurant trials a meal-deal promotion specific to loyalty members and it showed success, the promotion could be rolled out state wide. 
+The ability to **slice specific time periods** means that performance can be measured at different levels by drilling down into the time series slicer. The ability to **filter by different levels for fast food restaurants** is also useful for comparing by State, City or individual restaurant, allowing restaurants to be further investigated if performance is exceptional so that it can be replicated across other stores. For example, if a specific restaurant trials a meal-deal promotion specific to loyalty members and it showed success, the promotion could be rolled out state wide. 
 
 ### Deep Dive Analysis
-There is also possibilty for a **deep dive analysis of restaurant by sales quantity**. In effect this means stakeholder can identify which items are top sellers and what this might imply about customer preferences. Secondly, the stacked bar chart (bottom middle visual) displays the **top 5 item by total adjusted price loss by resurants**, this can provide value through identifying the items that have the highest adjusted price loss, explaining how this could indicate potential issues with pricing strategies or discounts (that may even be restaurant specific). The dashbaord can be used to gain insight centered around **discount distribution by loyalty program participation** which will give an indication of loyalty programme success through conversion rate. 
+There is also possibility for a **deep dive analysis of restaurant by sales quantity**. In effect this means stakeholder can identify which items are top sellers and what this might imply about customer preferences. Secondly, the stacked bar chart (bottom middle visual) displays the **top 5 item by total adjusted price loss by restaurants**, this can provide value through identifying the items that have the highest adjusted price loss, explaining how this could indicate potential issues with pricing strategies or discounts (that may even be restaurant specific). The dashboard can be used to gain insight centered around **discount distribution by loyalty program participation** which will give an indication of loyalty programme success through conversion rate. 
 
-### Sechduled Refresh
+### Scheduled Refresh
 The dashboard was published to the web to enable the option for scheduled refresh, which is useful for automatically pulling in fresh data from source systems and updating the visuals accordingly. However, for this particular project, there isn't a need to enable scheduled refresh since the data does not require periodic updates. The dashboard is not pulling fresh data from external source systems (data ingestion), making scheduled refresh redundant in this scenario.
 
 If the project were to involve real-time data updates, such as pulling data from a REST API, enabling scheduled refresh would be necessary. In that case, the feature would allow the dashboard to automatically ingest new data as it becomes available and update the visuals to reflect the latest information.
 
 # Technical Challenges
-The first technical challenged faced was the high volume of redundant data, in an ideal world it would best practice to remove all data that will not be used within the analysis for both computing and storage purposes. This would be especially important if big data was being ingested in real time to save money and resources to minimised the need to upwards and outwards. With this particular analysis the removal of descriptions and names of items would be a use case as the majority of item descritions were simply a plural of the given item and so removal of one of the two rows would be required. 
+The first technical challenged faced was the high volume of redundant data, in an ideal world it would best practice to remove all data that will not be used within the analysis for both computing and storage purposes. This would be especially important if big data was being ingested in real time to save money and resources to minimise the need to upwards and outwards. With this particular analysis the removal of descriptions and names of items would be a use case as the majority of item descritions were simply a plural of the given item and so removal of one of the two rows would be required. 
 
-Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across datatypes within the CSV file. I did make one oversight for which I had to later go back and ammend. This involved converting the date datatypes to the required format to be compatable with mySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI. in order to delete and re-populate the schema I also have to drop foreign key constraints to and then re-apply these rules once the data with correct date format was added. 
+Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across data types within the CSV file. I did make one oversight for which I had to later go back and amend. This involved converting the date data types to the required format to be compatible with mySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI. in order to delete and re-populate the schema I also have to drop foreign key constraints to and then re-apply these rules once the data with correct date format was added. 
 
 Understanding the recipe/sub-recipe relationships for each menu item to calculate ingredients was troublesome because I could not wrap my head around the way to calculate ingredients for sale based off what was ordered. This is why: 
 
@@ -218,7 +218,7 @@ With menu items there are 3 possible ways that the item is made up:
 - The menu item contains only recipes
 - Or a combination of both.
 
-Therefore to calculate the total quantity of igredients used based on number of sales that includes a menu item (an ultimately it's sub-parts), a left join, along with coalesce function default null values to 0. This allowed for the total quantity to be accurately calculated. 
+Therefore to calculate the total quantity of ingredients used based on number of sales that includes a menu item (an ultimately it's sub-parts), a left join, along with coalesce function default null values to 0. This allowed for the total quantity to be accurately calculated. 
 
 Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MySQL server to Power BI. This way useful as it allowed views I had used within mySQL to also be used within Power BI for sales insights, along with a the correct schema. 
 
