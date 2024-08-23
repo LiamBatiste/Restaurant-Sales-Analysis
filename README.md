@@ -207,7 +207,7 @@ If the project were to involve real-time data updates, such as pulling data from
 # Technical Challenges
 The first technical challenged faced was the high volume of redundant data, in an ideal world it would best practice to remove all data that will not be used within the analysis for both computing and storage purposes. This would be especially important if big data was being ingested in real time to save money and resources to minimised the need to upwards and outwards. With this particular analysis the removal of descriptions and names of items would be a use case as the majority of item descritions were simply a plural of the given item and so removal of one of the two rows would be required. 
 
-Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across datatypes within the CSV file. I did make one oversight for which I had to later go back and ammend. This involved converting the date datatypes to the required format to be compatable with mySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI.
+Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across datatypes within the CSV file. I did make one oversight for which I had to later go back and ammend. This involved converting the date datatypes to the required format to be compatable with mySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI. in order to delete and re-populate the schema I also have to drop foreign key constraints to and then re-apply these rules once the data with correct date format was added. 
 
 Understanding the recipe/sub-recipe relationships for each menu item to calculate ingredients was troublesome because I could not wrap my head around the way to calculate ingredients for sale based off what was ordered. This is why: 
 ![image](https://github.com/user-attachments/assets/28c2e3a7-cda4-495a-98ae-6e66068a6595)
@@ -225,11 +225,19 @@ Python data cleaning example - check duplicates, null values and data types:
 ![image](https://github.com/user-attachments/assets/239c460d-f976-4547-b711-553541f0abfe)
 
 ### dbdiagram.io code
-Database Schema snippet
+Database Schema code snippet
 ![image](https://github.com/user-attachments/assets/42756683-8038-454b-83a2-5eea42270a36)
 
-- sql schema snippets
-- dax? 
+### sql schema snippets
+sql schema excample - ingredients table
+![image](https://github.com/user-attachments/assets/f9eaca07-3330-408b-9ccb-ffda4de4038e)
+
+sql schema example - relationships
+![image](https://github.com/user-attachments/assets/db695144-c5cb-46c2-be41-6141ad8d6e78)
+
+
+
+### sql query snippets
 
 
 
