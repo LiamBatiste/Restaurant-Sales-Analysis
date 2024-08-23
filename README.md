@@ -231,18 +231,23 @@ Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MyS
 
 ![image](https://github.com/user-attachments/assets/42756683-8038-454b-83a2-5eea42270a36)
 
-### sql schema snippets
-**sql schema excample - ingredients table:**
+### SQL schema snippets
+**SQL schema excample - ingredients table:**
 
 ![image](https://github.com/user-attachments/assets/f9eaca07-3330-408b-9ccb-ffda4de4038e)
 
-**sql schema example - relationships:**
+**SQL schema example - relationships:**
 
 ![image](https://github.com/user-attachments/assets/db695144-c5cb-46c2-be41-6141ad8d6e78)
 
-
-
 ### sql query snippets
+**SQL query example - Restaurant Sales View**
+![image](https://github.com/user-attachments/assets/70b80ffd-4581-4fc3-945f-ba15a0f0161e)
 
+**SQL query example - top 5 ingredients total quantities**
+![image](https://github.com/user-attachments/assets/a3ef10b5-cf80-4327-af7b-680e2c2af223)
+
+**SQL query example - Top 5 items by average discount price**
+![image](https://github.com/user-attachments/assets/619b60af-ce1e-4ac2-ad51-fa2ea22eb65c)
 
 
