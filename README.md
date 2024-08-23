@@ -38,9 +38,9 @@ The data was brought into SQL using the now cleaned and prepared CSV files (Seee
 
 # SQL Querying - Restaurant Sales Internal Benchmarking:
 
-### Insights through mySQL:
+### Insights through MySQL:
 
-Once the data was populated into the mySQL schema and I had created the relevant Views within SQL to speed up my workflow by collating and connecting the relevant fields I would frequently be querying, I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
+Once the data was populated into the MySQL schema and I had created the relevant Views within SQL to speed up my workflow by collating and connecting the relevant fields I would frequently be querying, I could begin to conduct my analysis. The key areas of interest and insights gained were as follows:
 
 - [Overall Restaurant Sales Analysis](#overall-restaurant-sales-analysis)
 - [Menu Item Analysis](#menu-item-analysis)
@@ -206,7 +206,7 @@ If the project were to involve real-time data updates, such as pulling data from
 # Technical Challenges
 The first technical challenged faced was the high volume of redundant data, in an ideal world it would best practice to remove all data that will not be used within the analysis for both computing and storage purposes. This would be especially important if big data was being ingested in real time to save money and resources to minimise the need to upwards and outwards. With this particular analysis the removal of descriptions and names of items would be a use case as the majority of item descritions were simply a plural of the given item and so removal of one of the two rows would be required. 
 
-Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across data types within the CSV file. I did make one oversight for which I had to later go back and amend. This involved converting the date data types to the required format to be compatible with mySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI. in order to delete and re-populate the schema I also have to drop foreign key constraints to and then re-apply these rules once the data with correct date format was added. 
+Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across data types within the CSV file. I did make one oversight for which I had to later go back and amend. This involved converting the date data types to the required format to be compatible with MySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI. in order to delete and re-populate the schema I also have to drop foreign key constraints to and then re-apply these rules once the data with correct date format was added. 
 
 Understanding the recipe/sub-recipe relationships for each menu item to calculate ingredients was troublesome because I could not wrap my head around the way to calculate ingredients for sale based off what was ordered. This is why: 
 
@@ -219,7 +219,7 @@ With menu items there are 3 possible ways that the item is made up:
 
 Therefore to calculate the total quantity of ingredients used based on number of sales that includes a menu item (an ultimately it's sub-parts), a left join, along with coalesce function default null values to 0. This allowed for the total quantity to be accurately calculated. 
 
-Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MySQL server to Power BI. This way useful as it allowed views I had used within mySQL to also be used within Power BI for sales insights, along with a the correct schema. 
+Lastly, the MySQL required a Connector/ODBC driver to bring data in from the MySQL server to Power BI. This way useful as it allowed views I had used within MySQL to also be used within Power BI for sales insights, along with a the correct schema. 
 
 # Appendix
 ### Python snippets
