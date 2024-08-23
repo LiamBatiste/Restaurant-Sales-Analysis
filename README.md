@@ -205,10 +205,14 @@ The dashboard was published to the web to enable the option for scheduled refres
 If the project were to involve real-time data updates, such as pulling data from a REST API, enabling scheduled refresh would be necessary. In that case, the feature would allow the dashboard to automatically ingest new data as it becomes available and update the visuals to reflect the latest information.
 
 # Technical Challenges
-- redundant data
-- removing/replaing missing data (python)
-- understanding the recipe/sub-recipe relationships
-- incorrectly formatted dates when populating schema in SQL
+The first technical challenged faced was the high volume of redundant data, in an ideal world it would best practice to remove all data that will not be used within the analysis for both computing and storage purposes. This would be especially important if big data was being ingested in real time to save money and resources to minimised the need to upwards and outwards. With this particular analysis the removal of descriptions and names of items would be a use case as the majority of item descritions were simply a plural of the given item and so removal of one of the two rows would be required. 
+
+Although the data set is from Kaggle, it is still important to check the dataset is clean. This was done using the Python Pandas library and involved checking for; null values, duplicated records and formatting consistency across datatypes within the CSV file. I did make one oversight for which I had to later go back and ammend. This involved converting the date datatypes to the required format to be compatable with mySQL. I notice this oversight once I had created my dashboard that my slicer a range of over 20 years. This was because I had formatted my date fields as 'dd/mm/yyyy', but instead it should have been 'yyyy/mm/dd'. This required mew to correct the date at source (.csv files) and then repopulating the SQL database tables for querying and visualisation in Power BI.
+
+Understanding the recipe/sub-recipe relationships for each menu item to calculate ingredients was troublesome because I could not wrap my head around the way to calculate ingredients for sale based off what was ordered. This is why: 
+
+
+
 - MySQL required Connector/ODBC driver to bring data in from MySQL server
 
 # Appendix
